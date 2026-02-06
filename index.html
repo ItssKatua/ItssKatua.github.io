@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- headah -->
+    <header>
+        <div data-i18n="headerLeft" class="headerL">
+        </div>
+        <div class="headerC">
+            <div class="flexRow" style="gap: 20px;">
+                <a href="#contentHolder" id="nameArrowLeft" class="arrow disabled">←</a>
+                <div id="nameHeader">
+                    Filip Jakub Minárik
+                </div>
+                <a href="#contentHolder" id="nameArrowRight" class="arrow">→</a>
+            </div>
+        </div>
+        <div class="lang-switch headerR">
+            <img id="flag-front" class="lang-flag" src="images/union-jack.png" onclick="changeFlag()">
+            <img id="flag-back" class="lang-flag" src="images/Flag_of_Slovakia.svg" onclick="changeFlag()">
+        </div>
+    </header>
+
+    <!-- contentah -->
+    <br>
+
+    <div id="contentHolder">
+        <!-- MEEEEEEEE -->
+        <div class="flexColumn alignCenter content" id="filipContent">
+            <div data-i18n="aboutMe" class="alignCenter"></div>
+            <div data-i18n="aboutMeTextF" class="alignCenter aboutMe" id="aboutMeTextF"></div>
+
+            <br>
+            <!-- names -->
+            <div data-i18n="myProjects"></div>
+            <div class="projects">
+                <div class="project-carousel" id="projectCarouselF">
+                    <div class="project-card" data-project="pF1"
+                        style="background-image:url('images/filip/project1.png')">
+                        <span data-i18n="p1FH"></span>
+                    </div>
+                    <div class="project-card" data-project="pF2"
+                        style="background-image:url('images/filip/project2.png')">
+                        <span data-i18n="p2FH"></span>
+                    </div>
+                    <div class="project-card" data-project="pF3"
+                        style="background-image:url('images/filip/project3.png')">
+                        <span data-i18n="p3FH"></span>
+                    </div>
+                    <div class="project-card" data-project="pF4"
+                        style="background-image:url('images/filip/project4.png')">
+                        <span data-i18n="p4FH"></span>
+                    </div>
+                </div>
+                <!-- contenter -->
+                <div class="project-content">
+                    <!-- p1 -->
+                    <div class="project-panel" id="pF1">
+                        <span data-i18n="p1FC1"></span>
+                        <div class="project-gallery">
+                            <img src="images/filip/peggle1.png" class="zoomie" data-i18n="p1FC1I1">
+                            <img src="images/filip/peggle3.png" class="zoomie" data-i18n="p1FC1I2">
+                        </div>
+                    </div>
+
+                    <!-- p2 -->
+                    <div class="project-panel" id="pF2">
+                        <div class="project-panel-header">
+                            <div><strong data-i18n="p2FC1H"></strong></div>
+                            <span data-i18n="p2FC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/filip/distance1.jpg" class="zoomie" data-i18n="p2FC1I1">
+                            <img src="images/filip/distance3.jpg" class="zoomie" data-i18n="p2FC1I2">
+                            <img src="images/filip/distance2.jpg" class="zoomie" data-i18n="p2FC1I3">
+                            <img src="images/filip/distance4.jpg" class="zoomie" data-i18n="p2FC1I4">
+                        </div>
+                    </div>
+                    <hr id="pF2">
+                    <div class="project-panel" id="pF2">
+                        <div class="project-panel-header">
+                            <div><strong data-i18n="p2FC2H"></strong></div>
+                            <span data-i18n="p2FC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/filip/temp1.png" class="zoomie"data-i18n="p2FC2I1">
+                            <img src="images/filip/temp2.png" class="zoomie"data-i18n="p2FC2I2">
+                            <img src="images/filip/temp3.png" class="zoomie"data-i18n="p2FC2I3">
+                            <img src="images/filip/temp4.png" class="zoomie"data-i18n="p2FC2I4">
+                        </div>
+                    </div>
+
+                    <!-- p3 -->
+                    <div class="project-panel" id="pF3">
+                        <div class="project-panel-header">
+                            <div><strong data-i18n="p3FC1H"></strong></div>
+                            <span data-i18n="p3FC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/filip/cmd1.png" class="zoomie" data-i18n="p3FC1I1">
+                            <img src="images/filip/cmd2.png" class="zoomie" data-i18n="p3FC1I2">
+                        </div>
+                    </div>
+                    <hr id="pF3">
+                    <div class="project-panel" id="pF3">
+                        <div class="project-panel-header">
+                            <div><strong data-i18n="p3FC2H"></strong></div>
+                            <span data-i18n="p3FC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/filip/tree1.png" class="zoomie"data-i18n="p3FC2I1">
+                            <img src="images/filip/tree2.png" class="zoomie"data-i18n="p3FC2I2">
+                            <img src="images/filip/tree3.png" class="zoomie"data-i18n="p3FC2I3">
+                            <img src="images/filip/tree4.png" class="zoomie"data-i18n="p3FC2I4">
+                        </div>
+                    </div>
+                    <hr id="pF3">
+                    <div class="project-panel" id="pF3">
+                        <div class="project-panel-header">
+                            <div><strong data-i18n="p3FC3H"></strong></div>
+                            <span data-i18n="p3FC3"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/filip/paint1.png" class="zoomie"data-i18n="p3FC3I1">
+                            <img src="images/filip/paint2.png" class="zoomie"data-i18n="p3FC3I2">
+                            <img src="images/filip/paint3.png" class="zoomie"data-i18n="p3FC3I3">
+                            <img src="images/filip/paint4.png" class="zoomie"data-i18n="p3FC3I4">
+                        </div>
+                    </div>
+
+                    <!-- p4 -->
+                    <div class="project-panel" id="pF4">
+                        <div class="project-panel-header">
+                            <div><strong data-i18n="p4FC1H"></strong></div>
+                            <span data-i18n="p4FC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/filip/dpb1.png" class="zoomie">
+                            <img src="images/filip/dpb2.png" class="zoomie">
+                            <img src="images/filip/dpb3.png" class="zoomie">
+                            <img src="images/filip/dpb4.jpg" class="zoomie"data-i18n="p4FC1I4">
+                        </div>
+                    </div>
+                    <hr id="pF4">
+                    <div class="project-panel" id="pF4">
+                        <div class="project-panel-header">
+                            <div><strong data-i18n="p4FC2H"></strong></div>
+                            <span data-i18n="p4FC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/filip/calc1.png" class="zoomie"data-i18n="p4FC2I1">
+                            <img src="images/filip/calc2.png" class="zoomie"data-i18n="p4FC2I2">
+                            <img src="images/filip/calc3.png" class="zoomie"data-i18n="p4FC2I3">
+                            <img src="images/filip/calc4.png" class="zoomie"data-i18n="p4FC2I4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- this other guy :(( p-pet? 
+         yes now sit and make cool animations and shaders :3
+          yippieeeeeeeeet thank u flip
+        -->
+        <div class="flexColumn alignCenter content" id="richardContent">
+            <div data-i18n="aboutMe" class="alignCenter"></div>
+            <div data-i18n="aboutMeTextR" class="alignCenter aboutMe" id="aboutMeTextR"></div>
+
+            <br>
+
+            <div data-i18n="myProjects"></div>
+            <div class="projects">
+                <div class="project-carousel" id="projectCarouselR">
+                    <div class="project-card" data-project="p1"
+                        style="background-image:url('images/risko/consoleapp.png')">
+                        <span data-i18n="p1RH">C# console apps</span>
+                    </div>
+                    <div class="project-card" data-project="p2"
+                        style="background-image:url('images/risko/skicartext.png')">
+                        <span data-i18n="p2RH">C# forms apps</span>
+                    </div>
+                    <div class="project-card" data-project="p3"
+                        style="background-image:url('images/risko/cupgame1.png'); background-size: 100% 160%; background-position-y: 60%;">
+                        <span data-i18n="p3RH">ROBLOX games</span>
+                    </div>
+                    <div class="project-card" data-project="p4"
+                        style="background-image:url('images/risko/shaderball1.png'); background-size: 80% 120%; background-position-x: center; background-position-y: 76%;">
+                        <span data-i18n="p4RH">Shaders</span>
+                    </div>
+                    <div class="project-card" data-project="p5"
+                        style="background-image:url('images/risko/olababout.png')">
+                        <span data-i18n="p5RH">Websites</span>
+                    </div>
+                    <div class="project-card" data-project="p6"
+                        style="background-color: black; background-image:url('images/risko/mobilestopwatch.jpg'); background-repeat:no-repeat; background-size: 60%; background-position: 90% 60%;">
+                        <span data-i18n="p6RH">Lua projects</span>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <!-- c# console -->
+                    <div class="project-panel" id="p1">
+                        <!-- windows console -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p1RC1H"></span></strong>
+                            <span data-i18n="p1RC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/consoleapp.png" class="zoomie" data-i18n="p1RC1I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/consoleappdir.png" class="zoomie" data-i18n="p1RC1I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/consoleappprint.png" class="zoomie" data-i18n="p1RC1I3" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/consoleappsecret.png" class="zoomie" data-i18n="p1RC1I4" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p1">
+                    <div class="project-panel" id="p1">
+                        <!-- csvkit  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p1RC2H"></span></strong>
+                            <span data-i18n="p1RC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/csvkithelp.png" class="zoomie" data-i18n="p1RC2I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/csvkitadd.png" class="zoomie" data-i18n="p1RC2I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/csvkitlook.png" class="zoomie" data-i18n="p1RC2I3" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/csvkitstat.png" class="zoomie" data-i18n="p1RC2I4" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+
+                    <!-- c# forms -->
+                    <div class="project-panel" id="p2">
+                        <!-- skicar  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p2RC1H"></span></strong>
+                            <span data-i18n="p2RC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/skicar.png" class="zoomie" data-i18n="p2RC1I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/skicartext.png" class="zoomie" data-i18n="p2RC1I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/skicar2.png" class="zoomie" data-i18n="p2RC1I3" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/skicarimages.png" class="zoomie" data-i18n="p2RC1I4" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p2">
+                    <div class="project-panel" id="p2">
+                        <!-- minesweeper  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p2RC2H"></span></strong>
+                            <span data-i18n="p2RC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/sweeper.png" class="zoomie" data-i18n="p2RC2I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/sweeperwin.png" class="zoomie" data-i18n="p2RC2I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p2">
+                    <div class="project-panel" id="p2">
+                        <!-- grapher  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p2RC3H"></span></strong>
+                            <span data-i18n="p2RC3"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/grapherpie.png" class="zoomie" data-i18n="p2RC3I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/grapherchart.png" class="zoomie" data-i18n="p2RC3I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+
+                    <!-- ROBLOX -->
+                    <div class="project-panel" id="p3">
+                        <!-- cup game  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p3RC1H"></span></strong>
+                            <span data-i18n="p3RC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/cupgame1.png" class="zoomie" data-i18n="p3RC1I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/cupgame.png" class="zoomie" data-i18n="p3RC1I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/cupgameparticles.png" class="zoomie" data-i18n="p3RC1I3" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/cupgamethirdperson.png" class="zoomie" data-i18n="p3RC1I4" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p3">
+                    <div class="project-panel" id="p3">
+                        <!-- horror game  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p3RC2H"></span></strong>
+                            <span data-i18n="p3RC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/horrorgame.png" class="zoomie" data-i18n="p3RC2I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/horrorgamenetwork.png" class="zoomie" data-i18n="p3RC2I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p3">
+                    <div class="project-panel" id="p3">
+                        <!-- raytracer  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p3RC3H"></span></strong>
+                            <span data-i18n="p3RC3"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/bloxtracercubes.png" class="zoomie" data-i18n="p3RC3I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/bloxtracercubesshader.png" class="zoomie" data-i18n="p3RC3I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/bloxtracerstone.png" class="zoomie" data-i18n="p3RC3I3" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/bloxtracergas.png" class="zoomie" data-i18n="p3RC3I4" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/bloxtracergasshader.png" class="zoomie" data-i18n="p3RC3I5" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p3">
+                    <div class="project-panel" id="p3">
+                        <!-- bus physics  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p3RC4H"></span></strong>
+                            <span data-i18n="p3RC4"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/busgameincline.png" class="zoomie" data-i18n="p3RC4I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/busgamedrift.png" class="zoomie" data-i18n="p3RC4I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+
+                    <!-- shaders -->
+                    <div class="project-panel" id="p4">
+                        <!-- shaded ball  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p4RC1H"></span></strong>
+                            <span data-i18n="p4RC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/shaderball1.png" class="zoomie" data-i18n="p4RC1I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/shaderball2.png" class="zoomie" data-i18n="p4RC1I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p4">
+                    <div class="project-panel" id="p4">
+                        <!-- VHS (pc)  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p4RC2H"></span></strong>
+                            <span data-i18n="p4RC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/shadervhsoff.png" class="zoomie" data-i18n="p4RC2I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/shadervhson.png" class="zoomie" data-i18n="p4RC2I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p4">
+                    <div class="project-panel" id="p4">
+                        <!-- smoke approx  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p4RC3H"></span></strong>
+                            <span data-i18n="p4RC3"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/shadergasoff.png" class="zoomie" data-i18n="p4RC3I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/shadergason.png" class="zoomie" data-i18n="p4RC3I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p4">
+                    <div class="project-panel" id="p4">
+                        <!-- VHS (mobile)  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p4RC4H"></span></strong>
+                            <span data-i18n="p4RC4"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/mobilevhsoff.jpg" class="zoomie" data-i18n="p4RC4I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/mobilevhshalf.jpg" class="zoomie" data-i18n="p4RC4I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/mobilevhson.jpg" class="zoomie" data-i18n="p4RC4I3" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p4">
+                    <div class="project-panel" id="p4">
+                        <!-- camera sampler  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p4RC5H"></span></strong>
+                            <span data-i18n="p4RC5"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/mobilesamplerbrightoff.jpg" class="zoomie" data-i18n="p4RC5I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/mobilesamplerbrighton.jpg" class="zoomie" data-i18n="p4RC5I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/mobilesamplerdarkoff.jpg" class="zoomie" data-i18n="p4RC5I3" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/mobilesamplerdarkon.jpg" class="zoomie" data-i18n="p4RC5I4" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+
+                    <!-- websites -->
+                    <div class="project-panel" id="p5">
+                        <!-- openlab -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p5RC1H"></span></strong>
+                            <span data-i18n="p5RC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/olababout.png" class="zoomie" data-i18n="">
+                            <img src="images/risko/olabdata.png" class="zoomie" data-i18n="">
+                            <img src="images/risko/olabstudies.png" class="zoomie" data-i18n="">
+                            <img src="images/risko/olablocations.png" class="zoomie" data-i18n="">
+                        </div>
+                    </div>
+                    <hr id="p5">
+                    <div class="project-panel" id="p5">
+                        <!-- shadersite  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p5RC2H"></span></strong>
+                            <span data-i18n="p5RC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/shadersitebefore.png" class="zoomie" data-i18n="p5RC2I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/shadersite.png" class="zoomie" data-i18n="p5RC2I2" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/shadersiteafter.png" class="zoomie" data-i18n="p5RC2I3" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p5">
+                    <div class="project-panel" id="p5">
+                        <!-- mobile clock -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p5RC3H"></span></strong>
+                            <span data-i18n="p5RC3"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/mobileclock.jpg" class="zoomie" data-i18n="">
+                            <img src="images/risko/mobileclocktick.jpg" class="zoomie" data-i18n="p5RC3I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+
+                    <!-- Lua -->
+                    <div class="project-panel" id="p6">
+                        <!-- stopwatch  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p6RC1H"></span></strong>
+                            <span data-i18n="p6RC1"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/mobilestopwatch.jpg" class="zoomie" data-i18n="p6RC1I1" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p6">
+                    <div class="project-panel" id="p6">
+                        <!-- dictionary  -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p6RC2H"></span></strong>
+                            <span data-i18n="p6RC2"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/mobiledictionary.jpg" class="zoomie" data-i18n="p6RC2I1" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                    <hr id="p6">
+                    <div class="project-panel" id="p6">
+                        <!-- fuel -->
+                        <div class="project-text">
+                            <strong><span data-i18n="p6RC3H"></span></strong>
+                            <span data-i18n="p6RC3"></span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/risko/mobilegas.jpg" class="zoomie" data-i18n="p6RC3I1" data-zoomie_class="richardStyle forced nodash">
+                            <img src="images/risko/mobilegasreal.jpg" class="zoomie" data-i18n="p6RC3I2" data-zoomie_class="richardStyle forced nodash">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- OUR!! projetcts SAYOOOOOOOOOOOOOO SEEE RUSIIIMII -->
+        <div class="groupContainer">
+            <div class="fadein"></div>
+            <div class="flexColumn alignCenter content" id="groupContent">
+                <div class="groupHeader">
+                    <div data-i18n="oPH" class="alignCenter" style="font-weight: bold; font-style: italic;"></div> <!-- our proj HEADER, our proj TEXT -->
+                    <div data-i18n="oPT" class="alignCenter aboutMe"></div>
+
+                </div>
+
+                <br>
+                <div data-i18n="ourProjects"></div>
+                <div class="projects">
+                    <div class="project-carousel" id="projectCarouselG">
+                        <!-- TA -->
+                        <div class="project-card" data-project="oP1" data-style="TrainAffinityGroup"
+                            style="background-image:url('images/risko/tahome.png')">
+                            <span data-i18n="oP1H"></span>
+                        </div>
+                        <!-- Expedite -->
+                        <div class="project-card" data-project="oP2" data-style="ExpediteGroup"
+                            style="background-image:url('images/risko/expeditetitanic.jpg')">
+                            <span data-i18n="oP2H"></span>
+                        </div>
+                    </div>
+                    <!-- contenter -->
+                    <div class="project-content">
+                        <!-- TA -->
+                        <div class="project-panel" id="oP1">
+                            <!-- overview  -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p1OC1H"></span></strong>
+                                <span data-i18n="p1OC1"></span>
+                                <i><a href="" target="_blank" data-i18n="taHost"> This site is hosted!</a></i>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/tahome.png" class="zoomie" data-i18n="tahome">
+                                <img src="images/risko/tauser.png" class="zoomie" data-i18n="tapost">
+                            </div>
+                            <br id="oP1">
+                        </div>
+                        <div class="project-panel" id="oP1">
+                            <!-- notable features -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p1OC2H"></span></strong>
+                                <span data-i18n="p1OC2"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/tapostowner.png" class="zoomie" data-i18n="taedit">
+                                <img src="images/risko/tacomments.png" class="zoomie" data-i18n="tacomment1">
+                                <img src="images/risko/tapopup.png" class="zoomie" data-i18n="tacomment2">
+                                <img src="images/risko/tapassword.png" class="zoomie" data-i18n="tadelete">
+                            </div>
+                            <br id="oP1">
+                        </div>
+                        <div class="project-panel" id="oP1">
+                            <!-- future expandability -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p1OC3H"></span></strong>
+                                <span data-i18n="p1OC3"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/tapostdelete.png" class="zoomie" data-i18n="tadeletepost">
+                            </div>
+                            <br id="oP1">
+                        </div>
+                        <div class="project-panel" id="oP1">
+                            <!-- key learning experiences -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p1OC4H"></span></strong>
+                                <span data-i18n="p1OC4"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/tapassword.png" class="zoomie" data-i18n="tajax">
+                                <img src="images/risko/tasettings.png" class="zoomie" data-i18n="tasettings">
+                            </div>
+                        </div>
+
+                        <!-- Expedite -->
+                        <div class="project-panel" id="oP2">
+                            <!-- overview  -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p2OC1H"></span></strong>
+                                <span data-i18n="p2OC1"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/expeditetitanic.jpg" class="zoomie" data-i18n="extit">
+                                <img src="images/risko/expediteseamine.jpg" class="zoomie" data-i18n="exmine">
+                            </div>
+                            <br id="oP2">
+                        </div>
+                        <div class="project-panel" id="oP2">
+                            <!-- mechanics  -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p2OC2H"></span></strong>
+                                <span data-i18n="p2OC2"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/expediteecosystem.jpg" class="zoomie" data-i18n="exfish">
+                                <img src="images/risko/expeditedanger.jpg" class="zoomie" data-i18n="excrit">
+                                <img src="images/risko/expeditedead.jpg" class="zoomie" data-i18n="exover">
+                                <img src="images/risko/expediteshop.jpg" class="zoomie" data-i18n="exship">
+                            </div>
+                            <br id="oP2">
+                        </div>
+                        <div class="project-panel" id="oP2">
+                            <!-- future expandablity -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p2OC3H"></span></strong>
+                                <span data-i18n="p2OC3"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/expeditemenu.jpg" class="zoomie" data-i18n="exmenu">
+                                <img src="images/risko/expeditemaxed.jpg" class="zoomie" data-i18n="exfull">
+                                <img src="images/risko/expeditesettings.jpg" class="zoomie" data-i18n="exsettings">
+                            </div>
+                            <br id="oP2">
+                        </div>
+                        <div class="project-panel" id="oP2">
+                            <!-- learning yadi yada -->
+                            <div class="project-text">
+                                <strong><span data-i18n="p2OC4H"></span></strong>
+                                <span data-i18n="p2OC4"></span>
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/risko/expediteoverpressure.jpg" class="zoomie" data-i18n="exhull">
+                                <img src="images/risko/expeditesplash.jpg" class="zoomie" data-i18n="exsplash">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fadeout" style="display: none;"></div>
+        </div>
+    </div>
+
+    <div id="overlay">
+        <img src="images/union-jack.png" alt="" id="overlay-img">
+        <p id="overlay-title"></p>
+    </div>
+    <!-- footah -->
+    <footer>
+        <div class="ft-flex">
+            <div style="margin-bottom: 15px;">Contact us at:</div>
+            <div class="ft-row">
+                Filip:
+                <div>
+                    <a href="https://discord.com/users/479914262957916161" target="_blank"> <img src="images/discord-fill.svg"></a>
+                    <a href="https://www.linkedin.com/in/filip-jakub-minarik-b753613aa" target="_blank"> <img src="images/linked.svg"></a>
+                    <a href="mailto:pistikminarik@gmail.com"> <img src="images/mail-fill.svg"></a>
+                </div>
+            </div>
+            <div class="ft-row">
+                Richard:
+                <div>
+                    <a href="https://discord.com/users/544555659023351810" target="_blank"> <img src="images/discord-fill.svg"></a>
+                    <a href="https://www.linkedin.com/in/richard-h-17b39b3aa/" target="_blank"> <img src="images/linked.svg"></a>
+                    <a href="mailto:richard.hovanyecz@spsehalova.sk"> <img src="images/mail-fill.svg"></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <span style="font-size: 18px;">
+            © 2026 Furs & spol. company LLC®
+        </span>
+    </footer>
+
+    <script src="languages.js"></script>
+    <script src="nameSwap.js" type="module"></script>
+    <script src="carousel.js" type="module"></script>
+</body>
+
+</html>
+
+<script>
+  const overlay = document.getElementById("overlay");
+  const overlayImg = document.getElementById("overlay-img");
+  const overlayTitle = document.getElementById("overlay-title");
+
+  const ogImgBlur = overlay.style.filter;
+  const ogImgDelay = overlay.style.transitionDelay;
+
+  document.querySelectorAll(".zoomie").forEach(img => {
+    img.onclick = () => {
+      overlayImg.src = img.src;
+      overlay.style.transitionDelay = ogImgDelay;
+      overlay.style.filter = "blur(0px)";
+      overlay.style.opacity = "100%";
+      overlay.style.pointerEvents = "all";
+      overlayTitle.innerText = img.dataset.title;
+      overlayTitle.style.display = (img.dataset.title == null || img.dataset.title == "") ? "none" : "unset";
+
+      overlay.classList = img.dataset.zoomie_class;
+    };
+  });
+
+  overlay.onclick = () => {
+    overlay.style.transitionDelay = "0s";
+    overlay.style.filter = ogImgBlur;
+    overlay.style.opacity = "0%";
+    overlay.style.pointerEvents = "none";
+  };
+
+  overlayTitle.onmouseover = () => {
+    overlayTitle.style.opacity = "24%";
+  }
+
+  overlayTitle.onmouseout = () => {
+    overlayTitle.style.opacity = "100%";
+  }
+</script>
