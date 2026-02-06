@@ -372,7 +372,9 @@ const translation = {
         exsettings: "Simple, incomplete settings menu",
         exfull: "Fully maxxed out upgrade shop",
         exhull: "Very noticable warning that the player's venturing too deep for their subs capabilities",
-        exsplash: "Splash effect upon starting a run"
+        exsplash: "Splash effect upon starting a run",
+
+        contact: "Contact us at:"
 
 
     },
@@ -709,7 +711,7 @@ const translation = {
         p1OC3: "TA je možné rozšíriť pridaním komentárov aj na ďalšie miesta, napríklad na profily, alebo pridaním P2P správ. Tiež sme implementovali základy pre profilové obrázky. Ďalším krokom by mohlo byť pridanie ďalších typov médií, napr. videí.",
         // key learning points
         p1OC4H: "Čo sme sa naučili",
-        p1OC4: "Tento projekt nám poskytol cenné skúsenosti s vývojom funkčnej webovej stránky, ako aj s hostingom. Zoznámili sme sa s frameworkom Laravel, vo aj frontende aj backende.",
+        p1OC4: "Tento projekt nám poskytol cenné skúsenosti s vývojom funkčnej webovej stránky, ako aj s hostingom. Zoznámili sme sa s frameworkom Laravel, vo frontende aj backende.",
 
         // proj 2 Learn To Expedite
         oP2H: "Learn To Expedite 2023",
@@ -747,7 +749,9 @@ const translation = {
         exsettings: "Jednoduché nekompletné menu nastavení",
         exfull: "Upgrade obchod na maxime",
         exhull: "Veľmi nenápadny náznak veľmi vysokého tlaku na ponorku",
-        exsplash: "Efekt špliechania pri vpáde do vody"
+        exsplash: "Efekt špliechania pri vpáde do vody",
+
+        contact: "Kontaktujte nás na:"
 
     }
 }
