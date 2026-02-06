@@ -5,7 +5,7 @@ html {
 body {
     background-color: rgb(21, 7, 59);
     color: #e9d1ff;
-    font-family: 'Papyrus';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     margin: 0;
     box-sizing: border-box;
@@ -47,7 +47,7 @@ header {
 
 #nameHeader {
     text-align: center;
-    min-width: 16rem;
+    min-width: 20rem;
 }
 
 .nameIn {
@@ -386,6 +386,14 @@ hr.active {
     background-color: rgb(0, 16, 0) !important;
 }
 
+.richardStyle header .arrow {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.richardStyle header .lang-switch {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .richardStyle .content:not(#groupContent) {
     color: lime;
     text-shadow: rgba(173, 255, 47, 0.6) 0px 0px 32px;
@@ -461,6 +469,10 @@ hr.active {
     color: lime;
     text-shadow: rgba(173, 255, 47, 0.6) 0px 0px 32px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.richardStyle.nodash img{
+    border: none !important;
 }
 
 .richardStyle.nodash img{

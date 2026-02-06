@@ -148,7 +148,7 @@ const translation = {
         p3RC1: "> Recreation of the popular cup sorting game from social media."
             + "\n> Features a set of tables with procedurally generated cups."
             + "\n> Players get cues whether they made the right or wrong choice."
-            + "\n> Features a dark atmosphere, filled with eery lights and sound effects."
+            + "\n> Uses a dark atmosphere as a plot twist, filled with eery lights and sound effects."
             + "\n> Features simple networking, allowing others to see the games progress."
         ,
         p3RC1I1: "",
@@ -206,7 +206,7 @@ const translation = {
             + "\n> Supports cubemap but also procedural sky rendering."
             + "\n> Materials can be shiny, transparent, foggy, metallic..."
             + "\n> Simple volumetric fog implementation with transparency (also texture based, allowing for leaf shadows...) support."
-            + "\n> Offers a accumulative mode (noisy output that converges into a stable image), as well as a coherent, slower preview mode."
+            + "\n> Offers an accumulative mode (noisy output that converges into a stable image), as well as a coherent, slower preview mode."
             + "\n> Runs at interactive speeds, reaching 60fps at native resolution without trouble on a mobile device."
         ,
         p4RC1I1: "Shiny ball example with volumetric fog",
@@ -225,7 +225,7 @@ const translation = {
         p4RC3H: "Vaporisation shader",
         p4RC3: "> Simple fun experiment for simulating a gas."
             + "\n> Features a simple, stylistic gas simulation (gas purely propagates upwards)."
-            + "\n> Uses brightness data as gas sources, where bright pixels emit gas."
+            + "\n> Uses brightness data as the gas source, where bright pixels emit gas."
             + "\n> Runs at interactive speeds and allows the user to create gas spheres with their mouse."
         ,
         p4RC3I1: "Vapor effect inactive (before)",
@@ -254,9 +254,9 @@ const translation = {
         p5RH: "Websites",
         // openlab
         p5RC1H: "OpenLab recreation",
-        p5RC1: "> Simple recreation of the OpenLab (now part of the Skyro school)."
+        p5RC1: "> Simple recreation of the OpenLab (now part of the Skyro school) website."
             + "\n> Doesn\'t feature any logic."
-            + "\n> Tries to be as accurate to the real deal as possible."
+            + "\n> Tries to be as accurate to the real deal as possible, without looking at the source code."
             + "\n> Very start into website development."
         ,
         p5RC1I1: "",
@@ -303,7 +303,7 @@ const translation = {
             + "\n> Uses a pagination system."
             + "\n> Offers syntax options, like matching the beginning/ending of a word, length comparison or exact index pulling."
         ,
-        p6RC2I1: "&quot;world&quot; query example",
+        p6RC2I1: "\"world\" query example",
         // fuel calculator
         p6RC3H: "Fuel calculator",
         p6RC3: "> Inspired by our cars faulty fuel level sensor."
@@ -544,7 +544,7 @@ const translation = {
         p3RC3: "> Sada raytracerov (vykreslovanie sveteľnými ľúčmi) tvorených čisto mnou."
             + "\n> Snaží sa dosiahnuť fotorealistické výsledky, aj keď na úkor času výpočtov."
             + "\n> Ponúka dva modely: jeden na všeobecnú, realistickú grafiku a druhý na zobrazenie hmly a svetiel."
-            + "\n>> Všeobecný model obsahuje mäkké tiene, zatmenie okolím, odrazy v hladkých predmetch, odlesk svetla a svietiace objekty."
+            + "\n>> Všeobecný model obsahuje mäkké tiene, zatmenie okolím, odrazy v hladkých predmetch, odlesk svetla, svietiace objekty, materiály a experimentálnu podporu textúr."
             + "\n>> Model hmly zjednodušuje všeobecnú grafiku (ostré tiene, žiadne odrazy...) ale umožňuje vykreslovanie hlmy a jej ovplyvnenia svetlami, aj s podporou tieňov."
             + "\n> Obsahuje pokusy o optimalizáciu, ale kvôli limitáciám ROBLOX-u (možnosť výpočtov iba na jednom jadre CPU..) je celkom pomalý."
             + "\n> Celý projekt bol skôr experiment a slúžil ako úvod do grafických výpočtov."
@@ -715,13 +715,13 @@ const translation = {
         oP2H: "Learn To Expedite 2023",
         // overview
         p2OC1H: "Satirický arkádový strategický simulátor",
-        p2OC1: "Learn To Expedite je mobilná F2P hra ktorej cieľom je nájsť Titanik pomocou ponorky. Inšpirovaná sériou Learn To Fly, aby sa hráč dostal k vrau, musí najpr vylepšiť svoju ponorku.",
+        p2OC1: "Learn To Expedite je mobilná F2P hra ktorej cieľom je nájsť Titanik pomocou ponorky. Inšpirovaná sériou Learn To Fly, aby sa hráč dostal k vraku, musí najpr vylepšiť svoju ponorku.",
         // mechanics
         p2OC2H: "Mechaniky",
-        p2OC2: "Hra obsahuje opakovateľnú hernú slučku spolu s komplexným systémom ukladania. Hra sleduje aktuálny stav hráča, ako sú jeho upgraedy, peniaze atď., ako aj jeho celoherné štatistiky a nastavenia aplikácie. Ryby v hre maju dôkladný AI a tvoria vlastný ekosystém; jedinečný samotári, skupinkári a predátori ktorí hráča aktívne lovia. Pohyb je joystick a tocuh area, ktorý zväčší hrácovu rýchlosť, čo je užitočné pri vyhýbaní sa predátorom. Hráč môže zbierať rôzny šrot z vody, ktorý sa na konci expedície vymení za peniaze, ktoré možno použiť na upgraedy. Hra má intuitívny UI, ktorý ponúka hráčovi všetky informácie ktoré potrebuje.",
+        p2OC2: "Hra obsahuje opakovateľnú hernú slučku spolu s komplexným systémom ukladania. Hra sleduje aktuálny stav hráča, ako sú jeho upgrady, peniaze atď., ako aj jeho celoherné štatistiky a nastavenia. Ryby v hre maju dôkladnú AI a tvoria vlastný ekosystém; jedinečný samotári, skupinkári a predátori, ktorí hráča aktívne lovia. Pohyb je joystick a touch area, ktorý zväčší hráčovu rýchlosť, čo je užitočné pri vyhýbaní sa predátorom. Hráč môže zbierať rôzny šrot z vody, ktorý sa na konci expedície vymení za peniaze, ktoré možno použiť na upgrady. Hra má intuitívny UI, ktorý ponúka hráčovi všetky informácie ktoré potrebuje.",
         // future expandability
         p2OC3H: "Čo možno pridať",
-        p2OC3: "Hra už má základy pre komplexný zvuk, ako sú ambientné zvuky a zvukové efekty, no kvôli časovým obmedzeniam sa nám nepodarilo pridať audio súbory. Ďalšou takmer dokončenou funkciou sú hráčske skiny, ktoré by umožnili používať gemy na kozmetické úpravy, ktoré môžu meniť aj samotné herné mechaniky. Náš herný systém beží na modulárnom systéme herných režimov, čo nám umožňuje jednoducho vytvárať rôzne režimy. Poslednou dôležitou vecou, ktorú by sme chceli pridať, je nejaká forma monetizácie, napríklad reklamy alebo mikrotransakcie.",
+        p2OC3: "Hra už má základy pre komplexný zvuk, ako sú ambientné zvuky a zvukové efekty, no kvôli časovým obmedzeniam sa nám nepodarilo zohnať audio súbory. Ďalšou takmer dokončenou funkciou sú hráčske skiny, ktoré by umožnili používať gemy na kozmetické úpravy, ktoré môžu meniť aj samotné herné mechaniky. Náš herný systém beží na modulárnom systéme herných režimov, čo nám umožňuje jednoducho vytvárať rôzne režimy. Poslednou dôležitou vecou, ktorú by sme chceli pridať, je nejaká forma monetizácie, napríklad reklamy alebo mikrotransakcie.",
         // learnt or learned :X
         p2OC4H: "Čo sme sa naučili",
         p2OC4: "Tento projekt nás naopak naučil, ako vytvoriť funkčnú, perzistentnú hru v engine Unity. Pomohol nám tiež uvedomiť si dôležitosť efektívneho kódu, keďže sme museli myslieť na výkon vzhľadom na cieľové zariadenie – mobilné telefóny.",
@@ -730,11 +730,11 @@ const translation = {
         tahome: "Domovská stránka s príspevkami",
         tapost: "Profil, ukážka markdown",
         taedit: "Úprava príspevku",
-        tacomment1: "Ukážka komentárov, vlastné komentáre označené",
+        tacomment1: "Ukážka komentárov, označenia vlastných komentárov",
         tacomment2: "Popup ukážka",
         tadelete: "Potvrdenie hesla pri mazaní účtu",
-        tadeletepost: "Modular popup ukážka",
-        tajax: "forma AJAX",
+        tadeletepost: "Modulárna popup ukážka",
+        tajax: "Formulár s AJAX",
         tasettings: "Nastavenia uživateľa",
 
         extit: "Titanik cutscéna",
@@ -742,7 +742,7 @@ const translation = {
         exfish: "Fúra rýb okolo hráča",
         exover: "Game over menu, ukážka štatistík",
         excrit: "Oznam nízkeho života",
-        exship: "In-game obchod, tu sa kupujú upgraedy",
+        exship: "In-game obchod, tu sa kupujú upgrady",
         exmenu: "Hlavné menu s nepoužitým skinom",
         exsettings: "Jednoduché nekompletné menu nastavení",
         exfull: "Upgrade obchod na maxime",

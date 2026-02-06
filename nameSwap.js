@@ -83,13 +83,12 @@ async function animateContent() {
         else
             document.body.classList.remove(person.bodyStyle);
     });
-    if(people[cur].bodyStyle == null) return;
-    else if(Array.isArray(people[cur].bodyStyle)){
+    if(Array.isArray(people[cur].bodyStyle)){
         people[cur].bodyStyle.forEach(style => {
             document.body.classList.add(style);
         })
     }
-    else
+    else if(people[cur].bodyStyle != null)
         document.body.classList.add(people[cur].bodyStyle);
     contentHolder.classList.add("contentOut");
     await awaitAnim(contentHolder);
