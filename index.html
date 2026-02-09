@@ -652,14 +652,16 @@
   document.querySelectorAll(".zoomie").forEach(img => {
     img.onclick = () => {
       overlayImg.src = img.src;
-      overlay.style.transitionDelay = ogImgDelay;
+      requestAnimationFrame(() => {
+         overlay.style.transitionDelay = ogImgDelay;
       overlay.style.filter = "blur(0px)";
       overlay.style.opacity = "100%";
       overlay.style.pointerEvents = "all";
       overlayTitle.innerText = img.dataset.title;
       overlayTitle.style.display = (img.dataset.title == null || img.dataset.title == "") ? "none" : "unset";
 
-      overlay.classList = img.dataset.zoomie_class;
+      overlay.classList = img.dataset.zoomie_class; 
+      })
     };
   });
 
