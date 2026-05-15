@@ -55,14 +55,15 @@ function updateCard(car) {
             const els = _carousel[2];
             els.forEach(c => c.classList.remove("active"));
 
-            const carouselCenter = carousel.scrollLeft + carousel.offsetWidth / 2;
+            const carouselKYS = carousel.getBoundingClientRect();
+            const carouselCenter = carouselKYS.left + carouselKYS.width / 2;
 
             let closestCard = null;
             let closestDistance = Infinity; // thats like over 9000
 
             _cards.forEach(card => {
-                const cardCenter =
-                    card.offsetLeft + card.offsetWidth / 2; // :o meth
+                const cardKYS = card.getBoundingClientRect();
+                const cardCenter = cardKYS.left + cardKYS.width / 2; // :o meth
 
                 const distance = Math.abs(carouselCenter - cardCenter);
 
