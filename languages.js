@@ -87,8 +87,21 @@ const translation = {
 
         p3FC5H: "Car game",
         p3FC5: "Simple console car game, infinitely generating road upward, hitting the sides causes a loss, no win condition.",
-        p3FC5I1: "",
+        p3FC5I1: "Opening",
+        p3FC5I2: "Start",
+        p3FC5I3: "Curvy road",
+        p3FC5I4: "Game over",
 
+        p3FC6H: "Tic tac toe",
+        p3FC6: "Simple console tic tac toe game for 2 players.",
+        p3FC6I1: "Empty",
+        p3FC6I2: "Gameplay",
+        p3FC6I3: "Victory",
+
+        p3FC7H: "Password generator",
+        p3FC7: "Simple password generator of random letters and characters.",
+        p3FC7I1: "1",
+        p3FC7I2: "2",
 
         p4FH: "Websites",
         p4FC1H: "DPB webpage",
@@ -486,7 +499,21 @@ const translation = {
 
         p3FC5H: "Autova hra",
         p3FC5: "Jednoduchá konzolová hra s nekonečne generovanou cestou nahor, keď sa auto dotkne okraju prehrá, vyhrať sa nedá.",
-        p3FC5I1: "",
+        p3FC5I1: "Intro",
+        p3FC5I2: "Štart",
+        p3FC5I3: "Zakrivujúca sa cesta",
+        p3FC5I4: "Koniec hry",
+
+        p3FC6H: "Piškvorky",
+        p3FC6: "Jednoduché piškvorky v konzole pre 2 hráčov.",
+        p3FC6I1: "Nová hra",
+        p3FC6I2: "Hra",
+        p3FC6I3: "Koniec hry",
+
+        p3FC7H: "Generátor hesla",
+        p3FC7: "Jednoduchý generátor hesla z náhodných písmen, znakov, čisiel podľa predvoľby.",
+        p3FC7I1: "1",
+        p3FC7I2: "2",
 
 
         p4FH: "Webové stránky",
