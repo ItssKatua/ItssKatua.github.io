@@ -13,8 +13,9 @@ const translation = {
         aboutMe: "About Me:",
         oPH: "We\'ve also worked on projects together...",
         aboutMeTextF: "Junior game & web developer and electronics student. \nStudying game design and development, fullstack web development and basic electronics."
-            + "\nProficient in C# as a primary language, also experienced in HTML, PHP (Laravel), CSS, JS, SQL and beginning in Lua, shaders, C++."
-            + "\nMainly focusing on smaller projects like C# apps and electrotechnical work rather than videogames and websites.",
+            + "\nProficient in C# as a primary language, also experienced in HTML, PHP (Laravel), CSS, JS, SQL and beginning in Lua, shaders, C++." +
+            "\n Skilled in blender and 3d modelling for both games and 3d printing, introductory experience with Adobe afterFX."
+            + "\nMainly focusing on smaller projects like C# apps, 3d models and electrotechnical work.",
         aboutMeTextR: "Junior game and web developer, primarily studying game, but also website development."
             + "\nProficient in the languages C# and Lua, but also confident in GLSL, HTML, JS, PHP (Laravel), SQL queries and have seen C++."
             + "\nPrimarily experienced in backend (coding, logic, futureproofing..) works."
@@ -409,8 +410,9 @@ const translation = {
         oPH: "Taktiež sme sa podielali na spoločných projektoch...",
         aboutMeTextF: "Študent a junior herný a webový programátor a elektrotechnik."
             + "\nŠtúdium herného dizajnu a vývoja, fullstack webového vývoja a základov elektroniky."
-            + "\nHlavný programovací jazyk je C#, no mám skúsenosti aj s C++, HTML, PHP (Laravel), CSS, JS a SQL."
-            + "\nViac skúseny vo frontende a dizajne.",
+            + "\nHlavný programovací jazyk je C#, no mám skúsenosti aj s HTML, PHP (Laravel), CSS, JS a SQL a začínam s C++, Lua a shadere."
+            + "\nTaktiež ovládam blender a 3D modelovanie do hier aj na tlač."
+            + "\nRadšej sa zaoberám menšími projektmi v C#, Lue, 3D alebo elektrotechnike.",
         aboutMeTextR: "Junior herný a web programátor, študujúci vývoj hier a webových stránok."
             + "\nMám hlavne skúsenosti s jazykmi C# a Lua, ale vyznám sa aj v GLSL, HTML, JS, PHP (Laravel), SQL dopytoch a stretol som sa s C++."
             + "\nSom viac skúsený s backend-om (logika, futureproofing...) ako frontend-om."

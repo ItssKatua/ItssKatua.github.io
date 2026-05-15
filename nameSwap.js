@@ -14,18 +14,18 @@ const wrapAround = false; // :333 frfr
 
 const people = [
     { // filiokp
-        fullName: "Filip Jakub Minárik",
+        fullName: "jozko",
         content: document.getElementById("filipContent")
     },
     { // rkisko
-        fullName: "Richard Hovanyecz",
+        fullName: "janko",
         content: document.getElementById("richardContent"),
         bodyStyle: ["richardStyle", "backdrop"]
     },
 ];
 
 function animateArrow(dir) {
-    function set(state){
+    function set(state) {
         arrowL.setAttribute("href", state ? "#headerC" : "#");
         arrowR.setAttribute("href", state ? "#headerC" : "#");
     }
@@ -74,8 +74,8 @@ async function animateContent() {
     people[cur].content.style.display = "unset";
     pwease();
     people.forEach(person => {
-        if(person.bodyStyle == null) return;
-        else if(Array.isArray(person.bodyStyle)){
+        if (person.bodyStyle == null) return;
+        else if (Array.isArray(person.bodyStyle)) {
             person.bodyStyle.forEach(style => {
                 document.body.classList.remove(style);
             })
@@ -83,12 +83,12 @@ async function animateContent() {
         else
             document.body.classList.remove(person.bodyStyle);
     });
-    if(Array.isArray(people[cur].bodyStyle)){
+    if (Array.isArray(people[cur].bodyStyle)) {
         people[cur].bodyStyle.forEach(style => {
             document.body.classList.add(style);
         })
     }
-    else if(people[cur].bodyStyle != null)
+    else if (people[cur].bodyStyle != null)
         document.body.classList.add(people[cur].bodyStyle);
     contentHolder.classList.add("contentOut");
     await awaitAnim(contentHolder);
