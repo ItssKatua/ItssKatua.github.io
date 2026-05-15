@@ -338,6 +338,7 @@ hr.active {
 .project-panel {
     display: none;
     max-width: 80%;
+    width: 80%;
     height: 90%;
     margin: 20px auto;
     padding: 20px;
@@ -471,11 +472,11 @@ hr.active {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.richardStyle.nodash img{
+.richardStyle.nodash img {
     border: none !important;
 }
 
-.richardStyle.nodash img{
+.richardStyle.nodash img {
     border: none !important;
 }
 
