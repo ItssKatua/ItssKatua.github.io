@@ -93,7 +93,7 @@ const translation = {
         p3FC5I4: "Game over",
 
         p3FC6H: "Tic tac toe",
-        p3FC6: "Simple console tic tac toe game for 2 players.",
+        p3FC6: "Simple console tic tac toe game for 2 players. The field is marked 1-9 for input of X and O.",
         p3FC6I1: "Empty",
         p3FC6I2: "Gameplay",
         p3FC6I3: "Victory",
@@ -505,7 +505,7 @@ const translation = {
         p3FC5I4: "Koniec hry",
 
         p3FC6H: "Piškvorky",
-        p3FC6: "Jednoduché piškvorky v konzole pre 2 hráčov.",
+        p3FC6: "Jednoduché piškvorky v konzole pre 2 hráčov. Pole je očíslované od 1-9 na značenie X a O.",
         p3FC6I1: "Nová hra",
         p3FC6I2: "Hra",
         p3FC6I3: "Koniec hry",
