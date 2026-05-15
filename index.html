@@ -537,7 +537,7 @@
                             <div class="project-text">
                                 <strong><span data-i18n="p1OC1H"></span></strong>
                                 <span data-i18n="p1OC1"></span>
-                                <i><a href="" target="_blank" data-i18n="taHost"> This site is hosted!</a></i>
+                                <i><a href="https://gaming-supplies-accordingly-compromise.trycloudflare.com" target="_blank" data-i18n="taHost"> This site is hosted!</a></i>
                             </div>
                             <div class="project-gallery">
                                 <img src="images/risko/tahome.png" class="zoomie" data-i18n="tahome">
@@ -689,14 +689,16 @@
   document.querySelectorAll(".zoomie").forEach(img => {
     img.onclick = () => {
       overlayImg.src = img.src;
-      overlay.style.transitionDelay = ogImgDelay;
+      requestAnimationFrame(() => {
+         overlay.style.transitionDelay = ogImgDelay;
       overlay.style.filter = "blur(0px)";
       overlay.style.opacity = "100%";
       overlay.style.pointerEvents = "all";
       overlayTitle.innerText = img.dataset.title;
       overlayTitle.style.display = (img.dataset.title == null || img.dataset.title == "") ? "none" : "unset";
 
-      overlay.classList = img.dataset.zoomie_class;
+      overlay.classList = img.dataset.zoomie_class; 
+      })
     };
   });
 
