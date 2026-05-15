@@ -39,7 +39,7 @@ const translation = {
         p2FC1H: "CanSAT",
         p2FC1: "Early participant in CanSAT competition by ESA/SSO, didn't advance, but decided to continue work as a personal project with the goal of finishing the satellite.\n" +
             "Main goal is collection of temperature, barometric data, CO2 concentration, TVOC gasses. Additionally a fully automatic ground station with satellite tracking antenna.\n" +
-            "Currently work in progress; \n> Radiocommunication functional\m>GPS functional\n>Data collection in progress",
+            "Currently work in progress; \n> Radiocommunication functional\n> GPS functional\n> Data collection in progress",
         p2FC1I1: "YAGI directional antenna",
 
         p2FC2H: "Distance sensor",
@@ -450,7 +450,7 @@ const translation = {
         p2FC1H: "CanSAT",
         p2FC1: "Účastník súťaže CanSAT od ESA/SSO, po nepostúpení som sa rozhodol dokončiť satelit ako vlastný projekt\n" +
             "Hlavný cieľ je kolekcia údajov o teplote, barometrických dát, koncentrácií CO2 a plynov TVOC. Taktiež plne automatická pozemná stanica so samozameriavaciou anténou.\n" +
-            "Momentálne je projekt v procese výroby; \n> Funkčná rádiokomunikácia\m>Funkčná GPS\n>Kolekcia dát v procese",
+            "Momentálne je projekt v procese výroby; \n> Funkčná rádiokomunikácia\n> Funkčná GPS\n> Kolekcia dát v procese",
         p2FC1I1: "YAGI direkčná antená",
 
         p2FC2H: "Diaľkový senzor",
