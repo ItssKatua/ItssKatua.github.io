@@ -13,8 +13,8 @@ const translation = {
         aboutMe: "About Me:",
         oPH: "We\'ve also worked on projects together...",
         aboutMeTextF: "Junior game & web developer and electronics student. \nStudying game design and development, fullstack web development and basic electronics."
-            + "\nProficient in C# as a primary language, also experienced in C++, HTML, PHP (Laravel), CSS, JS, SQL."
-            + "\nMore confident in frontend and design.",
+            + "\nProficient in C# as a primary language, also experienced in HTML, PHP (Laravel), CSS, JS, SQL and beginning in Lua, shaders, C++."
+            + "\nMainly focusing on smaller projects like C# apps and electrotechnical work rather than videogames and websites.",
         aboutMeTextR: "Junior game and web developer, primarily studying game, but also website development."
             + "\nProficient in the languages C# and Lua, but also confident in GLSL, HTML, JS, PHP (Laravel), SQL queries and have seen C++."
             + "\nPrimarily experienced in backend (coding, logic, futureproofing..) works."
@@ -34,19 +34,26 @@ const translation = {
         p1FC1I2: "Level selector screen",
 
         p2FH: "Electronics",
-        p2FC1H: "Distance sensor",
-        p2FC1: "A simple distance sensor made using arduino and an ultrasonic sensor.\nPrints out the distance on an LCD display.",
-        p2FC1I1: "Book close to sensor",
-        p2FC1I2: "Close LCD reading",
-        p2FC1I3: "Book far from sensor",
-        p2FC1I4: "Far LCD reading",
-        p2FC2H: "Home sensor",
-        p2FC2: "All in one home wellbeing sensor, includes light and temperature control printing the current state on an LCD display, as well as a smoke sensor with an inbuilt alarm.",
-        p2FC2I1: "Normal data reading",
-        p2FC2I2: "Low temperature level reading",
-        p2FC2I3: "High light level reading",
-        p2FC2I4: "Smoke deteted",
 
+        p2FC1H: "CanSAT",
+        p2FC1: "Early participant in CanSAT competition by ESA/SSO, didn't advance, but decided to continue work as a personal project with the goal of finishing the satellite.\n" +
+            "Main goal is collection of temperature, barometric data, CO2 concentration, TVOC gasses. Additionally a fully automatic ground station with satellite tracking antenna.\n" +
+            "Currently work in progress; \n> Radiocommunication functional\m>GPS functional\n>Data collection in progress",
+        p2FC1I1: "YAGI directional antenna",
+
+        p2FC2H: "Distance sensor",
+        p2FC2: "A simple distance sensor made using arduino and an ultrasonic sensor.\nPrints out the distance on an LCD display.",
+        p2FC2I1: "Book close to sensor",
+        p2FC2I2: "Close LCD reading",
+        p2FC2I3: "Book far from sensor",
+        p2FC2I4: "Far LCD reading",
+
+        p2FC3H: "Home sensor",
+        p2FC3: "All in one home wellbeing sensor, includes light and temperature control printing the current state on an LCD display, as well as a smoke sensor with an inbuilt alarm.",
+        p2FC3I1: "Normal data reading",
+        p2FC3I2: "Low temperature level reading",
+        p2FC3I3: "High light level reading",
+        p2FC3I4: "Smoke deteted",
 
         p3FH: "C# Console & Forms apps",
         p3FC1H: "Command Line",
@@ -65,6 +72,21 @@ const translation = {
         p3FC3I2: "Shape selector",
         p3FC3I3: "Rectangle shape drawing",
         p3FC3I4: "Reverse triangle drawing",
+
+        p3FC4H: "Casino man in casino mans casino",
+        p3FC4: "Simple card game based in a casino, luck based cards ranging from 1-11 with sophisticated calculation of the result of the initial bet.\n" +
+            "Howard (casino man) has different personalities with voicelines that he tells the player (img 4: neutral). Howard also has audio: ",
+        p3FC4I1: "Casino opening screen, introductions + rules",
+        p3FC4I2: "Goal input less than 2000$",
+        p3FC4I3: "Goal input over integer limit/null",
+        p3FC4I4: "Main screen",
+        p3FC4I5: "Cards",
+        p3FC4I6: "Money and most recent change (loss/gain)",
+        p3FC4I7: "Win screen",
+
+        p3FC5H: "Car game",
+        p3FC5: "Simple console car game, infinitely generating road upward, hitting the sides causes a loss, no win condition.",
+        p3FC5I1: "",
 
 
         p4FH: "Websites",
@@ -409,18 +431,26 @@ const translation = {
 
 
         p2FH: "Elektronika",
-        p2FC1H: "Diaľkový senzor",
-        p2FC1: "Jednoduchý diaľkový senzor ktorý používa Arduino a ultrazvukový senzor.\nNa LCD monitor vypiše diaľku predmentu pred ním.",
-        p2FC1I1: "Kniha pri senzore",
-        p2FC1I2: "LCD pri blízkej vzdialenosti",
-        p2FC1I3: "Kniha ďalej od senzoru",
-        p2FC1I4: "LCD pri ďalekej vzdialenosti",
-        p2FC2H: "Domáci senzor",
-        p2FC2: "All-in-one senzor stavu domu, ktorý zahŕňa detektor svetla a teploty s LCD výstupom ako aj dymový senzor so zabudovaným alarmom.",
-        p2FC2I1: "Normálny stav",
-        p2FC2I2: "Nízka teplota",
-        p2FC2I3: "Vysoká žiarivosť svetla",
-        p2FC2I4: "Detekovaný dym",
+
+        p2FC1H: "CanSAT",
+        p2FC1: "Účastník súťaže CanSAT od ESA/SSO, po nepostúpení som sa rozhodol dokončiť satelit ako vlastný projekt\n" +
+            "Hlavný cieľ je kolekcia údajov o teplote, barometrických dát, koncentrácií CO2 a plynov TVOC. Taktiež plne automatická pozemná stanica so samozameriavaciou anténou.\n" +
+            "Momentálne je projekt v procese výroby; \n> Funkčná rádiokomunikácia\m>Funkčná GPS\n>Kolekcia dát v procese",
+        p2FC1I1: "YAGI direkčná antená",
+
+        p2FC2H: "Diaľkový senzor",
+        p2FC2: "Jednoduchý diaľkový senzor ktorý používa Arduino a ultrazvukový senzor.\nNa LCD monitor vypiše diaľku predmentu pred ním.",
+        p2FC2I1: "Kniha pri senzore",
+        p2FC2I2: "LCD pri blízkej vzdialenosti",
+        p2FC2I3: "Kniha ďalej od senzoru",
+        p2FC2I4: "LCD pri ďalekej vzdialenosti",
+
+        p2FC3H: "Domáci senzor",
+        p2FC3: "All-in-one senzor stavu domu, ktorý zahŕňa detektor svetla a teploty s LCD výstupom ako aj dymový senzor so zabudovaným alarmom.",
+        p2FC3I1: "Normálny stav",
+        p2FC3I2: "Nízka teplota",
+        p2FC3I3: "Vysoká žiarivosť svetla",
+        p2FC3I4: "Detekovaný dym",
 
 
         p3FH: "C# Console & Forms aplikácie",
@@ -440,6 +470,21 @@ const translation = {
         p3FC3I2: "Výber 2D objektu",
         p3FC3I3: "Kresba štvorca",
         p3FC3I4: "Kresba obráteného trojuhoľníku",
+
+        p3FC4H: "Kasino muž v kasíno mužovom kasíne",
+        p3FC4: "Jednoduchá kartová hra v kasíne, po stávke je cieľ mať čo najviac bodov na kartách (každá karta 1-11), zo súčtu sa vypočíta výhra pomocou veľmi sofistikovaného vzorca.\n" +
+            "Howard (kasíno muž) má rôzne personality a komentáre ktoré periodicky hovorí hráčovi (obr. 4: neutrálna). \nHoward má taktiež hlas: ",
+        p3FC4I1: "Úvodná stránka kasína + pravidlá",
+        p3FC4I2: "Výherný cieľ menej než 2000$",
+        p3FC4I3: "Cieľ viac ako integer limit alebo null",
+        p3FC4I4: "Hlavná obrazovka",
+        p3FC4I5: "Karty",
+        p3FC4I6: "Peniaze a posledná zmena (výhra/strata)",
+        p3FC4I7: "Výherná obrazovka",
+
+        p3FC5H: "Autova hra",
+        p3FC5: "Jednoduchá konzolová hra s nekonečne generovanou cestou nahor, keď sa auto dotkne okraju prehrá, vyhrať sa nedá.",
+        p3FC5I1: "",
 
 
         p4FH: "Webové stránky",
