@@ -28,12 +28,14 @@ const translation = {
         ourProjects: "Our group projects:",
 
         // filipko
+        // pegel
         p1FH: "C++ Peggle",
         p1FC1: "A work in progress C++ remake of the classic game Peggle (2007)."
             + "\nBuilt with a custom no-GUI engine",
         p1FC1I1: "Main menu screen",
         p1FC1I2: "Level selector screen",
 
+        // electro
         p2FH: "Electronics",
 
         p2FC1H: "CanSAT",
@@ -56,6 +58,7 @@ const translation = {
         p2FC3I3: "High light level reading",
         p2FC3I4: "Smoke deteted",
 
+        //c#
         p3FH: "C# Console & Forms apps",
         p3FC1H: "Command Line",
         p3FC1: "Custom windows based command line with basic commands and directory navigation.\nCan be used to make, remove, copy directories, edit files...",
@@ -103,16 +106,27 @@ const translation = {
         p3FC7I1: "1",
         p3FC7I2: "2",
 
-        p4FH: "Websites",
-        p4FC1H: "DPB webpage",
-        p4FC1: "A one to one recreation of the Dopravný Podnik Bratislava home page from 2023. No functionallity.",
-        p4FC1I4: "avtobus",
-        p4FC2H: "Calculator",
-        p4FC2: "Simple JS powered calculator.",
-        p4FC2I1: "Calculator layout",
-        p4FC2I2: "First input",
-        p4FC2I3: "Second input",
-        p4FC2I4: "Result",
+        // luja
+
+        p4FH: "Lua projects",
+        p4FC1H: "API Dictionary",
+        p4FC1: "Dicitonary connected to a free online dictionary api, usage very simple, type in a word and get the dictionary entries about it.",
+        p4FC1I1: "Definition of \'woman\'",
+        p4FC1I2: "Definition of \'no\'",
+        p4FC1I3: "Definition of \'owaowa\'",
+
+
+        // web
+        p5FH: "Websites",
+        p5FC1H: "DPB webpage",
+        p5FC1: "A one to one recreation of the Dopravný Podnik Bratislava home page from 2023. No functionallity.",
+        p5FC1I4: "avtobus",
+        p5FC2H: "Calculator",
+        p5FC2: "Simple JS powered calculator.",
+        p5FC2I1: "Calculator layout",
+        p5FC2I2: "First input",
+        p5FC2I3: "Second input",
+        p5FC2I4: "Result",
 
 
 
@@ -516,16 +530,16 @@ const translation = {
         p3FC7I2: "2",
 
 
-        p4FH: "Webové stránky",
-        p4FC1H: "Web DPB",
-        p4FC1: "Prerobená domovská stránka Dopravného Podniku Bratislava z roku 2023. Nemá funkcionalitu.",
-        p4FC1I4: "avtobus",
-        p4FC2H: "Kalkulačka",
-        p4FC2: "Jednoduchá kalkulačka vyrobená pomocou javascriptu.",
-        p4FC2I1: "GUI",
-        p4FC2I2: "Prvá operácia",
-        p4FC2I3: "Druhá operácia",
-        p4FC2I4: "Výsledok",
+        p5FH: "Webové stránky",
+        p5FC1H: "Web DPB",
+        p5FC1: "Prerobená domovská stránka Dopravného Podniku Bratislava z roku 2023. Nemá funkcionalitu.",
+        p5FC1I4: "avtobus",
+        p5FC2H: "Kalkulačka",
+        p5FC2: "Jednoduchá kalkulačka vyrobená pomocou javascriptu.",
+        p5FC2I1: "GUI",
+        p5FC2I2: "Prvá operácia",
+        p5FC2I3: "Druhá operácia",
+        p5FC2I4: "Výsledok",
 
 
         // pet (eheeeeee thansk flip :33)
