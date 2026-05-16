@@ -529,6 +529,15 @@ const translation = {
         p3FC7I1: "1",
         p3FC7I2: "2",
 
+        // lua p4
+
+        p4FH: "Lua projekty",
+        p4FC1H: "API Slovník",
+        p4FC1: "Slovník pripojený na neplatený online API slovník. Používanie jednoduché, stačí napísať slovo a vypíšu sa významy.",
+        p4FC1I1: "Definícia slova \'woman\'",
+        p4FC1I2: "Definícia slova \'no\'",
+        p4FC1I3: "Definícia slova \'owaowa\'",
+
 
         p5FH: "Webové stránky",
         p5FC1H: "Web DPB",
