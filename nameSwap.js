@@ -14,11 +14,11 @@ const wrapAround = false; // :333 frfr
 
 const people = [
     { // filiokp
-        fullName: "jozko",
+        fullName: "moblord",
         content: document.getElementById("filipContent")
     },
     { // rkisko
-        fullName: "janko",
+        fullName: "richardex",
         content: document.getElementById("richardContent"),
         bodyStyle: ["richardStyle", "backdrop"]
     },
